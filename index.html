@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+   <head>
+   	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+   	<script>
+   	$(document).ready(function(){
+    $("button").click(function(){
+       $("img").animate({left: '250px'})
+               .animate({top: '250px'})
+               .animate({left: '10px'})
+               .animate({top: '10px'});
+});
+        });
+</script> 
+</head>
+<body>
+
+<button>Start Animation</button><br>
+<img src = "smiley.jpg"  style="width:100px;height:100px;position:relative;">
+
+</body>
+</html>
