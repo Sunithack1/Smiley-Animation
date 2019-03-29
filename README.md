@@ -1,1 +1,2 @@
-Jquery Animation on button click
+Simple Jquery Animation on button click
+
